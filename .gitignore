@@ -1,0 +1,94 @@
+# Archivos de entorno virtual
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignorar archivos específicos de Python
+*.pyc
+__pycache__/
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ignorar archivos de configuración de editores/IDE comunes (opcional, pero recomendado)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp # Archivos de swap de Vim
+
+# Ignorar archivos de log
+*.log
+*.log.*
+
+# Ignorar archivos de datos sensibles o generados
+*.env
+.env
+.flaskenv
+.DS_Store # Archivos de macOS
+Thumbs.db # Archivos de Windows
+
+# Carpetas específicas de tu proyecto Python
+# No subir la carpeta 'data_csvs' dentro de 'Yolo'
+Yolo/data_csvs/
+
+# No subir la carpeta 'data_images' dentro de 'Yolo'
+Yolo/data_images/
+
+# --- Exclusiones para un Proyecto React (o Node.js) ---
+node_modules/ # Dependencias de Node.js
+build/        # Directorio de salida de la construcción (Create React App por defecto)
+dist/         # Otro directorio de salida común para construcciones
+.cache/       # Cache de desarrollo
+.parcel-cache/ # Cache de Parcel
+.next/        # Directorio de Next.js
+.nuxt/        # Directorio de Nuxt.js
+out/          # Otro directorio de salida común
+
+# Archivos de configuración de npm/yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# Entornos y credenciales de frontend
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Archivos de pruebas
+coverage/
+
+# Archivos de Sentry
+.sentryclirc
+
+# Ignorar archivos específicos de VS Code (adicionales comunes)
+.history/
+.pnp.*
+
+# Ignorar archivos temporales
+tmp/
+temp/
+
+# Credenciales de Google detectadas
+service_account_key.json
+client_secrets.json

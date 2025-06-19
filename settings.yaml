@@ -1,0 +1,6 @@
+# settings.yaml
+client_config_file: service_account_key.json
+oauth_scope:
+- https://www.googleapis.com/auth/drive
+auth_local_webserver: false
+save_credentials_file: false
