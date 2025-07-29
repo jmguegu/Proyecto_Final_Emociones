@@ -1,3 +1,0 @@
-Salario Bruto Anual
-
-Los datos muestran el salario bruto anual para una jornada completa, desglosado por comunidad autónoma.

@@ -1,0 +1,3 @@
+export const firstLine = `Nivel de estudios`;
+export const restOfContent = `
+Se muestra el nivel de estudios alcanzado por la población, desglosado por cada comunidad autónoma. Se muestran los porcentajes de la población que ha alcanzado cada nivel de estudios indicado en cada caso.`;

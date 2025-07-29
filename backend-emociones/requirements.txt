@@ -1,0 +1,10 @@
+Flask
+Flask-CORS
+Pillow
+opencv-python
+ultralytics
+tensorflow==2.15.0
+numpy
+python-dotenv
+omegaconf
+scikit-learn==1.6.1 # ¡CAMBIADO! Versión específica para compatibilidad con preprocessor.pkl

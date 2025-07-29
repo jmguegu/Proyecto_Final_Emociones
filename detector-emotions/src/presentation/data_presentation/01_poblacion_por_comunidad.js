@@ -1,0 +1,4 @@
+export const firstLine = `Población`;
+export const restOfContent = `
+En él se muestra la población total de España, desglosada por cada comunidad autónoma.
+Las cifras son las oficiales de población resultantes de la revisión del Padrón municipal de la serie más reciente disponible.`;

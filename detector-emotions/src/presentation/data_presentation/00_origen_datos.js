@@ -1,0 +1,18 @@
+export const firstLine = `Analizaremos los datos de España.`;
+export const restOfContent =  `Los datos proceden del Instituto Nacional de Estadística (INE), disponibles en su web https://www.ine.es/.
+
+Se han extraido los siguientes datos:
+* Actividad Física
+* Asistencia a Eventos
+* Calidad del Aire
+* Índice de criminalidad
+* Rango de edades
+* Nivel de educación
+* Estado civil
+* Horas Trabajadas al mes
+* Población
+* Salario bruto anual
+* Satisfacción servicios sanitarios
+* Género de la población
+
+Si hubiera más de una serie temporal de datos en alguna de las categorías, se ha seleccionado la serie más reciente disponible.`;
